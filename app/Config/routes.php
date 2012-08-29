@@ -31,10 +31,12 @@
  */
 	//Router::connect('/pages/*', array('controller' => 'pages', 'action' => 'display'));
     //Router::connect('/pagina/*', array('controller' => 'pages', 'action' => 'display'));
-
-    Router::connect('/pagina/sobre-o-evento', array('controller' => 'pages', 'action' => 'display', 'sobreevento'));
-    Router::connect('/pagina/local-do-evento', array('controller' => 'pages', 'action' => 'display', 'localevento'));
-    Router::connect('/evento/inscricao', array('controller' => 'pages', 'action' => 'display', 'inscrever'));
+    Router::connect('/config/home', 			array('controller' => 'pages', 'action' => 'display', 'home_config'));
+    Router::connect('/pagina/sobre-o-evento', 	array('controller' => 'pages', 'action' => 'display', 'sobreevento'));
+    Router::connect('/pagina/local-do-evento', 	array('controller' => 'pages', 'action' => 'display', 'localevento'));
+    Router::connect('/evento/inscricao', 		array('controller' => 'pages', 'action' => 'display', 'inscrever'));
+	Router::connect('/sucesso', 				array('controller' => 'pages', 'action' => 'display', 'sucesso'));
+    
     
     
     

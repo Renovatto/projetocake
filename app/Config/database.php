@@ -63,10 +63,10 @@ class DATABASE_CONFIG {
 		'datasource' => 'Database/MySQL',
 		'persistent' => false,
 		//'host' => 'localhost',
-        'host' => 'mysql01.brunilo.com.br',
-		'login' => 'brunilo',
+        'host' => 'projetocake.no-ip.info',
+		'login' => 'root',
 		'password' => 'host8899',
-		'database' => 'brunilo',
+		'database' => 'cakeprojeto',
 		'prefix' => '', 
 		//'encoding' => 'utf8',
 	);

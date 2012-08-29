@@ -1,4 +1,4 @@
-<h2>Cadastre-se agora e garanta sua vaga...</h2>
+<h2>Cadastre-se agora e garanta já sua vaga...</h2>
 
 
 <?php

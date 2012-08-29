@@ -13,4 +13,3 @@
         </td>
     </tr>
 
-    <?php $this->log(array('ANDRE' => 'ALOISIO RENOVATTO','CAMILA' => 'CARINA DOS SANTOS',array('0' => 'blaasdfa', '1' => 'asdfasdfads'))); ?>

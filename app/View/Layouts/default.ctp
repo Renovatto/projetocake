@@ -21,7 +21,7 @@
 $home       = $this->Html->link('Home'            ,array('controller'=>'pages','action'=>'display','home')); 
 $sobre      = $this->Html->link('Sobre o Evento'  ,array('controller'=>'pages','action'=>'display','sobreevento'));
 $local      = $this->Html->link('Local do Evento' ,array('controller'=>'pages','action'=>'display','localevento'));
-$inscricao  = $this->Html->link('Inscrição' ,array('controller'=>'pages','action'=>'display','inscricao'));
+$inscricao  = $this->Html->link('Inscrição' ,array('controller'=>'pages','action'=>'display','inscrever'));
 
 $cakeDescription = ("$home :: $sobre :: $local :: $inscricao");
 
@@ -55,13 +55,13 @@ $cakeDescription = ("$home :: $sobre :: $local :: $inscricao");
 		<div id="footer">
 
 			<?php echo $this->Html->link(
-					$this->Html->image('cake.power.gif', array('alt' => $cakeDescription, 'border' => '0')),
+					$this->Html->image('cake.power.gif', array('alt' => $cakeDescription, 'border' => '2')),
 					'http://www.cakephp.org/',
 					array('target' => '_blank', 'escape' => false)
 				);
 			?>
 		</div>
 	</div>
-	<?php echo $this->element('sql_dump'); ?>
+	<?php //echo $this->element('sql_dump'); ?>
 </body>
 </html>
