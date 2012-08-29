@@ -179,3 +179,13 @@ CakeLog::config('error', array(
 	'types' => array('warning', 'error', 'critical', 'alert', 'emergency'),
 	'file' => 'error',
 ));
+
+/**
+ * Do singular para o plural
+ */
+
+Inflector::rules('plural', array(
+    'rules'       => array('/^(.*)ao$/i' => '\1oes',),
+    'irregular'   =>  array('inscricao' => 'inscricoes'),
+    'uninflected' => array()
+));

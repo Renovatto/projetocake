@@ -18,11 +18,12 @@
 
 //$cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework');
 
-$home  = $this->Html->link('Home'            ,array('controller'=>'pages','action'=>'display','home')); 
-$sobre = $this->Html->link('Sobre o Evento'  ,array('controller'=>'pages','action'=>'display','sobreevento'));
-$local = $this->Html->link('Local do Evento' ,array('controller'=>'pages','action'=>'display','localevento'));
+$home       = $this->Html->link('Home'            ,array('controller'=>'pages','action'=>'display','home')); 
+$sobre      = $this->Html->link('Sobre o Evento'  ,array('controller'=>'pages','action'=>'display','sobreevento'));
+$local      = $this->Html->link('Local do Evento' ,array('controller'=>'pages','action'=>'display','localevento'));
+$inscricao  = $this->Html->link('Inscrição' ,array('controller'=>'pages','action'=>'display','inscricao'));
 
-$cakeDescription = ("$home :: $sobre :: $local");
+$cakeDescription = ("$home :: $sobre :: $local :: $inscricao");
 
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">

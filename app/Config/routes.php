@@ -32,12 +32,11 @@
 	//Router::connect('/pages/*', array('controller' => 'pages', 'action' => 'display'));
     //Router::connect('/pagina/*', array('controller' => 'pages', 'action' => 'display'));
 
-/**
- * Rotas Projeto Exercicio 1 - AULA 2
- */    
-    
     Router::connect('/pagina/sobre-o-evento', array('controller' => 'pages', 'action' => 'display', 'sobreevento'));
     Router::connect('/pagina/local-do-evento', array('controller' => 'pages', 'action' => 'display', 'localevento'));
+    Router::connect('/evento/inscricao', array('controller' => 'pages', 'action' => 'display', 'inscrever'));
+    
+    
     
 /**
  * Load all plugin routes.  See the CakePlugin documentation on 
