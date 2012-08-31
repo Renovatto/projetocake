@@ -1,0 +1,58 @@
+2012-08-30 22:20:21 Error: [MissingControllerException] Controller class InscricaosController could not be found.
+#0 C:\Program Files (x86)\Zend\Apache2\htdocs\projetocake\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-30 22:20:57 Error: [MissingActionException] Action InscricoesController::inscrever() could not be found.
+#0 C:\Program Files (x86)\Zend\Apache2\htdocs\projetocake\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Program Files (x86)\Zend\Apache2\htdocs\projetocake\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(InscricoesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Program Files (x86)\Zend\Apache2\htdocs\projetocake\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-30 22:21:04 Error: [MissingControllerException] Controller class InscreverController could not be found.
+#0 C:\Program Files (x86)\Zend\Apache2\htdocs\projetocake\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-30 23:10:45 Error: [MissingActionException] Action InscricoesController::inscrever() could not be found.
+#0 C:\Program Files (x86)\Zend\Apache2\htdocs\projetocake\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Program Files (x86)\Zend\Apache2\htdocs\projetocake\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(InscricoesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Program Files (x86)\Zend\Apache2\htdocs\projetocake\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-30 23:12:30 Error: [MissingActionException] Action InscricoesController::inscrever() could not be found.
+#0 C:\Program Files (x86)\Zend\Apache2\htdocs\projetocake\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Program Files (x86)\Zend\Apache2\htdocs\projetocake\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(InscricoesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Program Files (x86)\Zend\Apache2\htdocs\projetocake\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-30 23:13:49 Error: [MissingActionException] Action InscricoesController::inscrever() could not be found.
+#0 C:\Program Files (x86)\Zend\Apache2\htdocs\projetocake\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Program Files (x86)\Zend\Apache2\htdocs\projetocake\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(InscricoesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Program Files (x86)\Zend\Apache2\htdocs\projetocake\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-30 23:19:28 Error: [MissingActionException] Action InscricoesController::inscrever() could not be found.
+#0 C:\Program Files (x86)\Zend\Apache2\htdocs\projetocake\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Program Files (x86)\Zend\Apache2\htdocs\projetocake\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(InscricoesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Program Files (x86)\Zend\Apache2\htdocs\projetocake\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-30 23:21:49 Error: [MissingViewException] View file "C:\Program Files (x86)\Zend\Apache2\htdocs\projetocake\app\View\Inscricoes\inscrever.ctp" is missing.
+#0 C:\Program Files (x86)\Zend\Apache2\htdocs\projetocake\lib\Cake\View\View.php(472): View->_getViewFileName(NULL)
+#1 C:\Program Files (x86)\Zend\Apache2\htdocs\projetocake\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#2 C:\Program Files (x86)\Zend\Apache2\htdocs\projetocake\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\Program Files (x86)\Zend\Apache2\htdocs\projetocake\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(InscricoesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Program Files (x86)\Zend\Apache2\htdocs\projetocake\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-08-30 23:23:54 Error: [MissingViewException] View file "C:\Program Files (x86)\Zend\Apache2\htdocs\projetocake\app\View\Inscricoes\inscrever.ctp" is missing.
+#0 C:\Program Files (x86)\Zend\Apache2\htdocs\projetocake\lib\Cake\View\View.php(472): View->_getViewFileName(NULL)
+#1 C:\Program Files (x86)\Zend\Apache2\htdocs\projetocake\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#2 C:\Program Files (x86)\Zend\Apache2\htdocs\projetocake\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\Program Files (x86)\Zend\Apache2\htdocs\projetocake\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(InscricoesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Program Files (x86)\Zend\Apache2\htdocs\projetocake\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-08-30 23:26:08 Error: [MissingViewException] View file "C:\Program Files (x86)\Zend\Apache2\htdocs\projetocake\app\View\Inscricoes\sucesso.ctp" is missing.
+#0 C:\Program Files (x86)\Zend\Apache2\htdocs\projetocake\lib\Cake\View\View.php(472): View->_getViewFileName('sucesso')
+#1 C:\Program Files (x86)\Zend\Apache2\htdocs\projetocake\lib\Cake\Controller\Controller.php(957): View->render('sucesso', NULL)
+#2 C:\Program Files (x86)\Zend\Apache2\htdocs\projetocake\app\Controller\InscricoesController.php(20): Controller->render('sucesso')
+#3 [internal function]: InscricoesController->inscrever()
+#4 C:\Program Files (x86)\Zend\Apache2\htdocs\projetocake\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(InscricoesController), Array)
+#5 C:\Program Files (x86)\Zend\Apache2\htdocs\projetocake\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 C:\Program Files (x86)\Zend\Apache2\htdocs\projetocake\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(InscricoesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\Program Files (x86)\Zend\Apache2\htdocs\projetocake\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-08-30 23:47:46 Error: [MissingControllerException] Controller class InscricaosController could not be found.
+#0 C:\Program Files (x86)\Zend\Apache2\htdocs\projetocake\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

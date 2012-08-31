@@ -184,8 +184,8 @@ CakeLog::config('error', array(
  * Do singular para o plural
  */
 
-Inflector::rules('plural', array(
-    'rules'       => array('/^(.*)ao$/i' => '\1oes',),
-    'irregular'   =>  array('inscricao' => 'inscricoes'),
-    'uninflected' => array()
-));
+//Inflector::rules('plural', array(
+//    'rules'       => array('/^(.*)ao$/i' => '\1oes',),
+//    'irregular'   =>  array('inscricao' => 'inscricoes'),
+//    'uninflected' => array()
+//));

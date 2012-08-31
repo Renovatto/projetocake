@@ -17,11 +17,11 @@
  */
 
 //$cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework');
+$home       = $this->Html->link('Home'            ,array('controller'=>'pages'      ,'action'=>'display','home')); 
+$sobre      = $this->Html->link('Sobre o Evento'  ,array('controller'=>'pages'      ,'action'=>'display','sobreevento'));
+$local      = $this->Html->link('Local do Evento' ,array('controller'=>'pages'      ,'action'=>'display','localevento'));
+$inscricao  = $this->Html->link('Inscrição'       ,array('controller'=>'inscricoes' ,'action'=>'inscrever'));
 
-$home       = $this->Html->link('Home'            ,array('controller'=>'pages','action'=>'display','home')); 
-$sobre      = $this->Html->link('Sobre o Evento'  ,array('controller'=>'pages','action'=>'display','sobreevento'));
-$local      = $this->Html->link('Local do Evento' ,array('controller'=>'pages','action'=>'display','localevento'));
-$inscricao  = $this->Html->link('Inscrição' ,array('controller'=>'pages','action'=>'display','inscrever'));
 
 $cakeDescription = ("$home :: $sobre :: $local :: $inscricao");
 
